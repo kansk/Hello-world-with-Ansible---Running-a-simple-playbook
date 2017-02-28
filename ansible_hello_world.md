@@ -18,14 +18,11 @@ Below is the contents of the playbook:
 Before executing the playbook we need to do a bunch of things on both controller-node and the target-node.
 
 First let us work on the things that need to be taken care of on controller-node:
-
 1. Create a new directory to store all the files that we need to run a sample playbook
 
 <pre><code>mkdir ansible_workspace</code></pre>
-
 2. Create a file with the name **hosts** and save the IP address of the target-node in line#1 and save & close the file.
 
 <pre><code>vi hosts
 192.1.168.1</code></pre>
-
 3. Create a new SSH keypair by following the instructions shown [here](kkkk)
