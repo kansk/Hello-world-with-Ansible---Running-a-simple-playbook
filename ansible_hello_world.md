@@ -12,7 +12,7 @@ Below is the contents of the playbook:
   user: ansibleuser
   tasks:
   - name: Create an empty file with name myfile.txt
-    shell: touch myfile.txt
+    shell: touch myfile.txt<pre><code>
     
 Before executing the playbook we need to do a bunch of things on both controller-node and the target-node.
 First let us work on the things that need to be taken care of on controller-node:
